@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&family=Mulish:wght@400;700&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(139, 206, 237, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(139, 206, 237, 0.29);
+  padding: 1rem;
+}	
+
+#lugar {
+    width: 7.5rem;
+    height: 2rem;
+    text-align: center;
+    background-color: rgb(24, 76, 247);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#fecha {
+    width: 7.5rem;
+    height: 2rem;
+    text-align: center;
+    background-color: rgb(24, 76, 247);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 5px;
+}	
+
+
+.select-opt{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.mb-3 {
+    width: 30rem;
+    height: 2rem; 
+    padding: 2rem; 
+}
+
+.form-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}	
+
+.btn-1,
+.btn-1 *,
+.btn-1 :after,
+.btn-1 :before,
+.btn-1:after,
+.btn-1:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-1 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+.btn-1:disabled {
+  cursor: default;
+}
+.btn-1:-moz-focusring {
+  outline: auto;
+}
+.btn-1 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-1 [hidden] {
+  display: none;
+}
+.btn-1 {
+  border-radius: 99rem;
+  border-width: 2px;
+  padding: 0.8rem 3rem;
+}
+.btn-1:hover {
+  color: #18a7db;
+}
+
+

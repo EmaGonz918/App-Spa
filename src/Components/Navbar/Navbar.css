@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&family=Mulish:wght@400;700&display=swap');
+
+
+body {
+    
+}
+
+.nav {
+    height: 50px;
+    text-align: center;
+    background-color: #18a7db;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    padding: 30px;
+    margin: auto;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+.white:hover {
+    color: rgb(12, 25, 35);
+    text-decoration: none;
+}
+
+ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+}
